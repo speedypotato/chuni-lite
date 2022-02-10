@@ -1,0 +1,10 @@
+TODO
+consider hard restricting slider when extending
+- screw on stopper?
+
+DONE
+need +3/4mm on bottom of air tower to stand correctly
+- add this on the flip down of the tower part
+
+-zip tie hooks for cables
+increased slider hole height by 0.5mm for tolerance and closer fit
