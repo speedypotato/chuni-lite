@@ -1,6 +1,5 @@
 TODO
-consider hard restricting slider when extending
-- screw on stopper?
+angle one side of hinge so screw heads don't collide?
 
 DONE
 need +3/4mm on bottom of air tower to stand correctly
@@ -8,3 +7,28 @@ need +3/4mm on bottom of air tower to stand correctly
 
 -zip tie hooks for cables
 increased slider hole height by 0.5mm for tolerance and closer fit
+
+consider hard restricting slider when extending
+- screw on stopper?
+
+make slider 0.5mm thinner for sliding tolerance
+
+add brim for easier hook printing
+chamfer the air_tower magnet area to make it printable
+
+fix slide colliding with top acrylic
+
+make air tower nut holes deeper to accommodate m3x15
+
+fixed ir led holes from 6/5/5/5/5/6 to 5.5
+chamfer top_2 to make printable
+
+magnet lock position seems wrong: slider_rail and deep slider -6mm: (89)
+increase slider nut insert height 2.5->3
+thin out air_2 except for nut area
+increase cable channel height for easier passthrough
+
+increase m3 hole for hinges to help threading
+	4.9 dist : 3.1 dia
+
+reduce depth of magnet mounts to make magnets more flush
