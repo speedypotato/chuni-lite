@@ -1,0 +1,125 @@
+R_0603:
+    code_imperial: "0603"
+    code_metric: "1608"
+    body_length:
+        minimum: 1.5
+        maximum: 1.7
+    body_width:
+        minimum: 0.7
+        maximum: 0.95
+    terminal_length:
+        minimum: 0.15
+        maximum: 0.4
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_0805:
+    code_imperial: "0805"
+    code_metric: "2012"
+    body_length:
+        minimum: 1.85
+        maximum: 2.15
+    body_width:
+        minimum: 1.1
+        maximum: 1.4
+    terminal_length:
+        minimum: 0.15
+        maximum: 0.65
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_1206:
+    code_imperial: "1206"
+    code_metric: "3216"
+    body_length:
+        minimum: 3.05
+        maximum: 3.35
+    body_width:
+        minimum: 1.45
+        maximum: 1.75
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.75
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_1210:
+    code_imperial: "1210"
+    code_metric: "3225"
+    body_length:
+        minimum: 3.05
+        maximum: 3.35
+    body_width:
+        minimum: 2.34
+        maximum: 2.64
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.75
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_2010:
+    code_imperial: "2010"
+    code_metric: "5025"
+    body_length:
+        minimum: 4.85
+        maximum: 5.15
+    body_width:
+        minimum: 2.35
+        maximum: 2.65
+    terminal_length:
+        minimum: 0.35
+        maximum: 0.85
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_1812:
+    code_imperial: "1812"
+    code_metric: "4532"
+    body_length:
+        nominal: 4.5
+        tolerance: 0.2
+    body_width:
+        nominal: 3.2
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.2
+    size_info: '(Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)'
+
+R_2512:
+    code_imperial: "2512"
+    code_metric: "6332"
+    body_length:
+        minimum: 6.15
+        maximum: 6.45
+    body_width:
+        minimum: 3.05
+        maximum: 3.35
+    terminal_length:
+        minimum: 0.35
+        maximum: 0.85
+    size_info: '(Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+R_2816:
+    code_imperial: "2816"
+    code_metric: "7142"
+    body_length:
+      nominal: 7.1
+      tolerance: 0.254
+    body_width:
+      nominal: 4.2
+      tolerance: 0.254
+    terminal_length:
+      minimum: 1.316 # 1.57 - 0.254
+      maximum: 2.744 # 2.49 + 0.254
+    size_info: '(Body size from: https://www.vishay.com/docs/30100/wsl.pdf)'
+
+R_4020:
+    code_imperial: "4020"
+    code_metric: "10251"
+    body_length:
+      nominal: 10.2
+      tolerance: [0.05, 0.2]
+    body_width:
+      nominal: 5.1
+      tolerance: [0.05, 0.2]
+    terminal_length:
+      nominal: 0.9
+      tolerance: 0.2
+    size_info: '(Body size source: http://datasheet.octopart.com/HVC0603T5004FET-Ohmite-datasheet-26699797.pdf)'

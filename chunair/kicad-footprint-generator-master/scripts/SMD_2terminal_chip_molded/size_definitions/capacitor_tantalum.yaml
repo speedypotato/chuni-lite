@@ -1,0 +1,519 @@
+C_1608-08:
+    code_metric: '1608-08'
+    # size   | 1,6 x 0,8 x 0,8 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-J'
+    body_length:
+        nominal: 1.6
+        tolerance: 0.2
+    body_width:
+        nominal: 0.85
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.1
+    size_info: '(Body size from: https://www.vishay.com/docs/48064/_t58_vmn_pt0471_1601.pdf)'
+
+C_1608-10:
+    code_metric: '1608-10'
+    # size   | 1,6 x 0,85 x 1,05 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-L'
+    body_length:
+        nominal: 1.6
+        tolerance: 0.2
+    body_width:
+        nominal: 0.85
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.1
+    size_info: '(Body size from: https://www.vishay.com/docs/48064/_t58_vmn_pt0471_1601.pdf)'
+
+C_2012-12:
+    code_metric: '2012-12'
+    # size   | 2,05 x 1,35 x 1,2 mm
+    code_letter: 'Kemet-R'
+    #code_letter: 'AVX-R'
+    body_length:
+        nominal: 2.0
+        tolerance: 0.2
+    body_width:
+        nominal: 1.25
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.2
+    terminal_width:
+        nominal: 0.9
+        tolerance: 0.1
+    size_info: '(Body size from: https://www.vishay.com/docs/40182/tmch.pdf)'
+
+C_2012-15:
+    code_metric: '2012-15'
+    # size   | 2,05 x 1,35 x 1,5 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-P'
+    body_length:
+        nominal: 2.0
+        tolerance: 0.2
+    body_width:
+        nominal: 1.25
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.2
+    terminal_width:
+        nominal: 0.9
+        tolerance: 0.1
+    size_info: '(Body size from: https://www.vishay.com/docs/40182/tmch.pdf)'
+
+C_3216-10:
+    code_metric: '3216-10'
+    # size   | 3,2 x 1,6 x 1,0 mm
+    code_letter: 'Kemet-I'
+    #code_letter: 'AVX-K'
+    body_length:
+        nominal: 3.2
+        tolerance: 0.2
+    body_width:
+        nominal: 1.6
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.2]
+    terminal_width:
+        nominal: 1.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_3216-12:
+    code_metric: '3216-12'
+    # size   | 3,2 x 1,6 x 1,2 mm
+    code_letter: 'Kemet-S'
+    #code_letter: 'AVX-S'
+    body_length:
+        nominal: 3.2
+        tolerance: 0.2
+    body_width:
+        nominal: 1.6
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.2]
+    terminal_width:
+        nominal: 1.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_3216-18:
+    code_metric: '3216-18'
+    # size   | 3,2 x 1,6 x 1,8 mm
+    code_letter: 'Kemet-A'
+    #code_letter: 'AVX-A'
+    body_length:
+        nominal: 3.2
+        tolerance: 0.2
+    body_width:
+        nominal: 1.6
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.2]
+    terminal_width:
+        nominal: 1.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_3528-12:
+    code_metric: '3528-12'
+    # size   | 3,5 x 2,8 x 1,2 mm
+    code_letter: 'Kemet-T'
+    #code_letter: 'AVX-T'
+    body_length:
+        nominal: 3.5
+        tolerance: 0.2
+    body_width:
+        nominal: 2.8
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.1]
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_3528-15:
+    code_metric: '3528-15'
+    # size   | 3,5 x 2,8 x 1,5 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-H'
+    body_length:
+        nominal: 3.5
+        tolerance: 0.2
+    body_width:
+        nominal: 2.8
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.1]
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_3528-21:
+    code_metric: '3528-21'
+    # size   | 3,5 x 2,8 x 2,1 mm
+    code_letter: 'Kemet-B'
+    #code_letter: 'AVX-B'
+    body_length:
+        nominal: 3.5
+        tolerance: 0.2
+    body_width:
+        nominal: 2.8
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.8
+        tolerance: [0.3, 0.1]
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_6032-15:
+    code_metric: '6032-15'
+    # size   | 6,0 x 3,2 x 1,5 mm
+    code_letter: 'Kemet-U'
+    #code_letter: 'AVX-W'
+    body_length:
+        nominal: 6.0
+        tolerance: 0.3
+    body_width:
+        nominal: 3.2
+        tolerance: 0.2
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_6032-20:
+    code_metric: '6032-20'
+    # size   | 6,0 x 3,2 x 2,0 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-F'
+    body_length:
+        nominal: 6.0
+        tolerance: 0.3
+    body_width:
+        nominal: 3.2
+        tolerance: 0.2
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_6032-28:
+    code_metric: '6032-28'
+    # size   | 6,0 x 3,2 x 2,8 mm
+    code_letter: 'Kemet-C'
+    #code_letter: 'AVX-C'
+    body_length:
+        nominal: 6.0
+        tolerance: 0.3
+    body_width:
+        nominal: 3.2
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.2
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7132-20:
+    code_metric: '7132-20'
+    # size   | 7,1 x 3,2 x 2,0 mm
+    code_letter: 'AVX-U'
+    body_length:
+        nominal: 7.1
+        tolerance: 0.3
+    body_width:
+        nominal: 3.2
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.6
+        tolerance: 0.6
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7132-28:
+    code_metric: '7132-28'
+    # size   | 7,1 x 3,2 x 2,8 mm
+    code_letter: 'AVX-C'
+    body_length:
+        nominal: 7.1
+        tolerance: 0.3
+    body_width:
+        nominal: 3.2
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.6
+        tolerance: 0.6
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7260-15:
+    code_metric: '7260-15'
+    # size   | 7,2 x 6,0 x 1,5 mm
+    code_letter: 'AVX-R'
+    body_length:
+        nominal: 7.2
+        tolerance: 0.3
+    body_width:
+        nominal: 6.0
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.8
+        tolerance: 0.6
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.4
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7260-20:
+    code_metric: '7260-20'
+    # size   | 7,2 x 6,0 x 2,0 mm
+    code_letter: 'AVX-M'
+    body_length:
+        nominal: 7.2
+        tolerance: 0.3
+    body_width:
+        nominal: 6.0
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.8
+        tolerance: 0.6
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.4
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7260-28:
+    code_metric: '7260-28'
+    # size   | 7,2 x 6,0 x 2,8 mm
+    code_letter: 'AVX-M'
+    body_length:
+        nominal: 7.2
+        tolerance: 0.3
+    body_width:
+        nominal: 6.0
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.8
+        tolerance: 0.6
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.4
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7260-38:
+    code_metric: '7260-38'
+    # size   | 7,2 x 6,0 x 3,8 mm
+    code_letter: 'AVX-R'
+    body_length:
+        nominal: 7.2
+        tolerance: 0.3
+    body_width:
+        nominal: 6.0
+        tolerance: 0.3
+    terminator_spacing:
+        nominal: 3.8
+        tolerance: 0.6
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.4
+    size_info: '(Body size from: http://datasheets.avx.com/F72-F75.pdf)'
+
+C_7343-15:
+    code_metric: '7343-15'
+    # size   | 7,3 x 4,3 x 1,5 mm
+    code_letter: 'Kemet-W'
+    #code_letter: 'AVX-X'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+      minimum: 2.3
+      maximum: 2.5
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7343-20:
+    code_metric: '7343-20'
+    # size   | 7,3 x 4,3 x 2,0 mm
+    code_letter: 'Kemet-V'
+    #code_letter: 'AVX-Y'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.4
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7343-30:
+    code_metric: '7343-30'
+    # size   | 7,3 x 4,3 x 3,0 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-N'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.4
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7343-31:
+    code_metric: '7343-31'
+    # size   | 7,3 x 4,3 x 3,1 mm
+    code_letter: 'Kemet-D'
+    #code_letter: 'AVX-D'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.4
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7343-40:
+    code_metric: '7343-40'
+    # size   | 7,3 x 4,3 x 4,0 mm
+    code_letter: 'Kemet-Y'
+    #code_letter: 'AVX-—'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.4
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7343-43:
+    code_metric: '7343-43'
+    # size   | 7,3 x 4,3 x 4,3 mm
+    code_letter: 'Kemet-X'
+    #code_letter: 'AVX-E'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 4.3
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 2.4
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7360-38:
+    code_metric: '7360-38'
+    # size   | 7,3 x 6,0 x 3,8 mm
+    code_letter: 'Kemet-E'
+    #code_letter: 'AVX-—'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.3
+    body_width:
+        nominal: 6.0
+        tolerance: 0.3
+    terminal_length:
+        nominal: 1.3
+        tolerance: 0.3
+    terminal_width:
+        nominal: 4.1
+        tolerance: 0.1
+    size_info: '(Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)'
+
+C_7361-38:
+    code_metric: '7361-38'
+    # size   | 7,3 x 6,1 x 3,8 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-V'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.2
+    body_width:
+        nominal: 6.1
+        tolerance: [0.1, 0.2]
+    terminal_length:
+        nominal: 1.3
+        tolerance: [0.2, 0.3]
+    terminal_width:
+        nominal: 3.1
+        tolerance: 0.2
+    size_info: '(Body size from: http://datasheets.avx.com/NOS.pdf)'
+
+C_7361-438:
+    code_metric: '7361-438'
+    # size | 7,3 x 6,1 x 4,3 mm
+    #code_letter: 'Kemet-—'
+    code_letter: 'AVX-U'
+    body_length:
+        nominal: 7.3
+        tolerance: 0.2
+    body_width:
+        nominal: 6.1
+        tolerance: [0.1, 0.2]
+    terminal_length:
+        nominal: 1.3
+        tolerance: [0.2, 0.3]
+    terminal_width:
+        nominal: 3.1
+        tolerance: 0.2
+    size_info: '(Body size from: http://datasheets.avx.com/NOS.pdf)'

@@ -1,0 +1,67 @@
+# Usage: python3 ipc_gullwing_generator.py size_definitions\transformer_ethernet.yaml
+FileHeader:
+  override_lib_name: 'Transformer_SMD'
+  device_type: 'SO'
+
+Halo_N2_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  manufacturer: Halo
+  part_number: N2
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+
+  body_size_x: 7.11
+  body_size_y: 12.7
+  overall_height:
+    maximum: 5.08
+
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Halo_N5_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  manufacturer: Halo
+  part_number: N5
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+
+  body_size_x: 7.11
+  body_size_y: 12.7
+  overall_height:
+    maximum: 6.35
+
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Halo_N6_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  manufacturer: Halo
+  part_number: N6
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+
+  body_size_x: 7.11
+  body_size_y: 14.73
+  overall_height:
+    maximum: 6.35
+
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8

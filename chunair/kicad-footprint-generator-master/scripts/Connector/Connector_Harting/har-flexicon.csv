@@ -1,0 +1,4 @@
+name_prefix,name_suffix,anchor_offset,vert,gp,gpl,gpr,court_up,court_down,fab_up,fab_down,datasheet
+1411,13002xxx,-1.3,False,True,-0.2,0.4,-3.5,14.3,-2.65,3.8,https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13002XXX_100228421DRW035C.pdf
+1411,13001xxx,0,True,True,0,0.6,-3.3,3.75,-2.5,2.5,https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13001XXX_100228421DRW046C.pdf
+1411,13010xxx,-1.3,False,False,,,-3.5,14.3,-2.65,3.8,https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13010XXX_100228421DRW063C.pdf

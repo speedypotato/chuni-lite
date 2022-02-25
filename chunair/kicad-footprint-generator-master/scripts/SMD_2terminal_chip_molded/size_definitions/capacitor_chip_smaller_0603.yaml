@@ -1,0 +1,29 @@
+C_0402:
+    code_imperial: "0402"
+    code_metric: "1005"
+    body_length:
+      minimum: 0.9
+      maximum: 1.1
+    body_width:
+      minimum: 0.4
+      maximum: 0.6
+    terminal_length:
+        minimum: 0.1
+        maximum: 0.3
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+    ipc_reference: "ipc_spec_smaller_0603"
+
+C_0504:
+    code_imperial: "0504"
+    code_metric: "1310"
+    body_length:
+        minimum: 1.02
+        maximum: 1.32
+    body_width:
+        minimum: 0.77
+        maximum: 1.27
+    terminal_length:
+        minimum: 0.13
+        maximum: 0.38
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+    ipc_reference: "ipc_spec_smaller_0603"

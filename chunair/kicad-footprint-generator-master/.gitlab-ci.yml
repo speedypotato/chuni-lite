@@ -1,0 +1,32 @@
+image: "python:3.6"
+
+stages:
+  - Static Analysis
+  - Test
+
+pep8:
+  stage: Static Analysis
+  only:
+    refs:
+      - merge_requests
+  before_script:
+    - python --version
+    - pip install -r requirements.txt
+  script:
+    - pycodestyle --max-line-length=120 "KicadModTree/"
+
+pytest:
+  stage: Test
+  only:
+    refs:
+      - merge_requests
+
+  before_script:
+    - python --version
+    - pip install -r requirements.txt
+  script:
+    - python -m pytest --junitxml=report.xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml

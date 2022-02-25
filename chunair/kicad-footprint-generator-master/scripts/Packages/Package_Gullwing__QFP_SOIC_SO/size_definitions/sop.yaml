@@ -1,0 +1,361 @@
+FileHeader:
+  library_Suffix: 'SO'
+  device_type: 'SOP'
+
+SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm:
+  size_source: 'https://ww2.minicircuits.com/case_style/XX112.pdf'
+  body_size_x:
+    nominal: 4.57
+    tolerance: 0.254
+  body_size_y:
+    nominal: 4.57
+    tolerance: 0.254
+  overall_size_x:
+    nominal: 10.16
+    tolerance: 0.254
+  lead_width:
+    nominal: 0.38
+    tolerance: 0.254
+  lead_len:
+    nominal: 1.78
+    tolerance: 0.254
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+  EP_size_x:
+    nominal: 4.57
+    tolerance: 0.254
+  EP_size_y:
+    # not directly given in datasheet. EP edge coincides with pads. (3*1.27+0.64 = 4.45)
+    nominal: 4.45
+    tolerance: 0.254
+  # EP_paste_coverage: 0.65
+  EP_num_paste_pads: [2, 2]
+  #heel_reduction: 0.1 #for relatively large EP pads (increase clearance)
+  # EP_size_limit_x: 3.6  #for relatively large EP pads (increase clearance)
+  # EP_size_limit_y: 3.6  #for relatively large EP pads (increase clearance)
+
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.51
+    # min_annular_ring: 0.15
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    # paste_between_vias: 1
+    # paste_rings_outside: 1
+    EP_paste_coverage: 0.70
+    grid: [2.54, 1.27]
+    # bottom_pad_size:
+    paste_avoid_via: False
+
+SOP-4_3.8x4.1mm_P2.54mm:
+  size_source: 'http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf'
+  body_size_x:
+    nominal: 3.8 #rounded to avoid changing the symbol (given as 3.81)
+    tolerance: 0.025
+  body_size_y:
+    nominal: 4.1 #rounded to avoid changing the symbol (givne as 4.089)
+    tolerance: 0.025
+  overall_height:
+    # calculated from (2.03 +/-0.025) + (0.64 +/-0.04)
+    nominal: 2.094
+    tolerance: 0.047
+
+  overall_size_x:
+    nominal: 6.096
+    tolerance: 0.102
+  lead_width:
+    nominal: 0.381
+    tolerance: 0 # not given
+  lead_len:
+    nominal: 0.559
+    tolerance: 0.127
+
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 2
+
+SOP-4_4.4x2.6mm_P1.27mm:
+  size_source: 'http://www.vishay.com/docs/83510/tcmt1100.pdf'
+  body_size_x:
+    nominal: 4.4
+    tolerance: 0 # only typical size given
+  body_size_y:
+    nominal: 2.6
+    tolerance: 0.2
+  overall_height:
+    # calculated from (2.0 +/-0.1) + (0.1 +/-0.1)
+    nominal: 2.1
+    tolerance: 0.14
+
+  overall_size_x:
+    nominal: 7
+    tolerance: 0.3
+  lead_width:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_len:
+    nominal: 0.6
+    tolerance: [-0.3, 0.2]
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 2
+
+SOP-8_3.76x4.96mm_P1.27mm:
+  size_source: 'https://ww2.minicircuits.com/case_style/XX211.pdf'
+  body_size_x:
+    nominal: 3.76 # max (4.14) - tolerance, rounded to 2 digits (+10um)
+    tolerance: 0.381
+  body_size_y:
+    nominal: 4.96 # max (5.33) - tolerance, rounded to 2 digits (+10um)
+    tolerance: 0.381
+  overall_height:
+    maximum: 1.96
+  overall_size_x:
+    minimum: 5.59
+    maximum: 6.35
+  lead_width:
+    nominal: 0.43
+    tolerance: 0.127
+  lead_len:
+    nominal: 0.76
+    tolerance: 0.381
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+SOP-8_3.9x4.9mm_P1.27mm:
+  size_source: 'http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79'
+  body_size_x:
+    minimum: 3.80
+    maximum: 4.00
+  body_size_y:
+    minimum: 4.77
+    maximum: 5.03
+  overall_height:
+    minimum: 1.45 # not specified, min.A1(0.10) + min.A2(1.35) gives this value 
+    maximum: 1.75 
+  overall_size_x:
+    minimum: 5.80
+    maximum: 6.20
+  lead_width:
+    minimum: 0.36
+    maximum: 0.51
+  lead_len:
+    minimum: 0.46
+    maximum: 0.86
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+SOP-8_5.28x5.23mm_P1.27mm:
+  size_source: 'http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=80'
+  body_size_x:
+    minimum: 5.18
+    maximum: 5.38
+  body_size_y:
+    minimum: 5.13
+    maximum: 5.33
+  overall_height:
+    minimum: 1.75
+    maximum: 2.16
+  overall_size_x:
+    minimum: 7.70
+    maximum: 8.10
+  lead_width:
+    minimum: 0.36
+    maximum: 0.51
+  lead_len:
+    minimum: 0.50
+    maximum: 0.80
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+SOP-8_6.62x9.15mm_P2.54mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/iso1050.pdf'
+  body_size_x:
+    minimum: 6.37
+    maximum: 6.87
+  body_size_y:
+    minimum: 8.75
+    maximum: 9.55
+  overall_height:
+    maximum: 4.85
+
+  overall_size_x:
+    minimum: 10.1
+    maximum: 10.7
+  lead_width:
+    minimum: 0.355
+    maximum: 0.555
+  lead_len:
+    minimum: 1.15
+    maximum: 1.45
+
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 4
+
+SOP-16_4.4.55x10.3mm_P1.27mm:
+  size_source: 'https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4'
+  body_size_x:
+    nominal: 4.55
+    tolerance: [-0.15, 0.25]
+  body_size_y:
+    nominal: 10.3
+    tolerance: [-0.15, 0.25]
+  overall_height:
+    nominal: 2.1
+    tolerance: 0.14
+
+  overall_size_x:
+    nominal: 7
+    tolerance: 0.4
+  lead_width:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_len:
+    minimum: 0.5
+    maximum: 0.5
+    # Only minimum given in the datasheet.
+    # With 0 tolerance we already get longer pads than suggested by the datasheet -> should be ok
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+SOP-18_7.0x12.5mm_P1.27mm:
+  size_source: 'https://toshiba.semicon-storage.com/info/docget.jsp?did=30523'
+  body_size_x:
+    nominal: 7
+    tolerance: 0.2
+  body_size_y:
+    nominal: 12.5
+    tolerance: 0.2
+  overall_height:
+    maximum: 2.45
+
+  overall_size_x:
+    nominal: 10.3
+    tolerance: 0.3
+  lead_width:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_len:
+    nominal: 0.7
+    tolerance: 0.2
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 9
+  
+STC_SOP-16_3.9x9.9mm_P1.27mm:
+  size_source: 'https://www.stcmicro.com/datasheet/STC15F2K60S2-en.pdf#page=156'
+  manufacturer: 'STC'
+  body_size_x: # E1
+    minimum: 3.80
+    nominal: 3.90
+    maximum: 4.00
+  body_size_y: # D
+    minimum: 9.80
+    nominal: 9.90
+    maximum: 10.00
+  overall_height: # A
+    minimum: 1.35
+    nominal: 1.60
+    maximum: 1.75
+  overall_size_x: # E
+    minimum: 5.80
+    nominal: 6.00
+    maximum: 6.20
+  lead_len: # L
+    minimum: 0.45
+    nominal: 0.60
+    maximum: 0.80
+  lead_width: # b
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+
+  pitch: 1.27 # e
+  num_pins_x: 0
+  num_pins_y: 8
+
+SOP-16_3.9x9.9mm_P1.27mm:
+  size_source: 'https://www.diodes.com/assets/Datasheets/PAM8403.pdf'
+  body_size_x: # E1
+    minimum: 3.80
+    maximum: 4.00
+  body_size_y: # D
+    minimum: 9.80
+    maximum: 10.00
+  overall_height: # A
+    minimum: 1.35
+    maximum: 1.75
+  overall_size_x: # E
+    minimum: 5.80
+    maximum: 6.30
+  lead_len: # L
+    minimum: 0.40
+    maximum: 1.27
+  lead_width: # b
+    minimum: 0.33
+    maximum: 0.51
+
+  pitch: 1.27 # e
+  num_pins_x: 0
+  num_pins_y: 8
+
+SOP-20_7.5x12.8mm_P1.27mm:
+  size_source: 'https://www.holtek.com/documents/10179/116723/sop20-300.pdf'
+  body_size_x:
+    nominal: 7.50
+  body_size_y:
+    nominal: 12.80
+  overall_height:
+    maximum: 2.65
+
+  overall_size_x:
+    nominal: 10.30
+
+  lead_width:
+    minimum: 0.31
+    maximum: 0.51
+  lead_len:
+    minimum: 0.40
+    maximum: 1.27
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 10
+
+SOP-24_7.5x15.4mm_P1.27mm:
+  size_source: 'http://www.issi.com/WW/pdf/31FL3218.pdf#page=14'
+  body_size_x:
+    minimum: 7.4
+    nominal: 7.5
+    maximum: 7.6
+  body_size_y:
+    minimum: 15.2
+    nominal: 15.4
+    maximum: 15.6
+  overall_height:
+    maximum: 2.65
+
+  overall_size_x:
+    minimum: 10.1
+    nominal: 10.3
+    maximum: 10.61
+  lead_width:
+    minimum: 0.27
+    maximum: 0.48
+  lead_len:
+    minimum: 0.4
+    maximum: 1.27
+
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 12

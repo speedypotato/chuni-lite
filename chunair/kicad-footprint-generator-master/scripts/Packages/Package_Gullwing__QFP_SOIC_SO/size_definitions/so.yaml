@@ -1,0 +1,197 @@
+FileHeader:
+  library_Suffix: 'SO'
+  device_type: 'SO'
+
+SO-8_5.3x6.2mm_P1.27mm:
+  size_source: 'https://www.ti.com/lit/ml/msop001a/msop001a.pdf'
+  body_size_x: 5.00 .. 5.60
+  body_size_y: 5.90 .. 6.50
+  overall_height: 2.00
+  overall_size_x: 7.40 .. 8.20
+  lead_width: 0.35 .. 0.51
+  lead_len: 0.55 .. 0.95
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+SO-14_3.9x8.65mm_P1.27mm:
+  size_source: 'https://www.st.com/resource/en/datasheet/l6491.pdf'
+  body_size_x: 3.80 .. 4.00
+  body_size_y: 8.55 .. 8.75
+  overall_height: 1.75
+  overall_size_x: 5.80 .. 6.20
+  lead_width: 0.33 .. 0.51
+  lead_len: 0.4 .. 1.27
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 7
+
+SO-14_5.3x10.2mm_P1.27mm:
+  size_source: 'https://www.ti.com/lit/ml/msop002a/msop002a.pdf'
+  body_size_x: 5.00 .. 5.60
+  body_size_y: 9.90 .. 10.50
+  overall_height: 2.00
+  overall_size_x: 7.40 .. 8.20
+  lead_width: 0.35 .. 0.51
+  lead_len: 0.55 .. 1.05
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 7
+
+SO-16_3.9x9.9mm_P1.27mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT109-1.pdf'
+  body_size_x:
+    nominal: 3.9
+    minimum: 3.8
+    maximum: 4.0
+  body_size_y:
+    nominal: 9.9
+    minimum: 9.8
+    maximum: 10.0
+  overall_height: 1.75
+  overall_size_x:
+    minimum: 5.8
+    maximum: 6.2
+  lead_width:
+    minimum: 0.36
+    maximum: 0.49
+  lead_len:
+    minimum: 0.4
+    maximum: 1.0
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+SO-16_5.3x10.2mm_P1.27mm:
+  size_source: 'https://www.ti.com/lit/ml/msop002a/msop002a.pdf'
+  body_size_x: 5.00 .. 5.60
+  body_size_y: 9.90 .. 10.50
+  overall_height: 2.00
+  overall_size_x: 7.40 .. 8.20
+  lead_width: 0.35 .. 0.51
+  lead_len: 0.55 .. 1.05
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+SO-20_5.3x12.6mm_P1.27mm:
+  size_source: 'https://www.ti.com/lit/ml/msop002a/msop002a.pdf'
+  body_size_x: 5.00 .. 5.60
+  body_size_y: 12.30 .. 12.90
+  overall_height: 2.00
+  overall_size_x: 7.40 .. 8.20
+  lead_width: 0.35 .. 0.51
+  lead_len: 0.55 .. 1.05
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 10
+
+SO-24_5.3x15mm_P1.27mm:
+  size_source: 'https://www.ti.com/lit/ml/msop002a/msop002a.pdf'
+  body_size_x: 5.00 .. 5.60
+  body_size_y: 14.70 .. 15.30
+  overall_height: 2.00
+  overall_size_x: 7.40 .. 8.20
+  lead_width: 0.35 .. 0.51
+  lead_len: 0.55 .. 1.05
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 12
+
+SO-8_4.0x5.0mm_P1.27mm:
+  size_source: 'https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf'
+  body_size_x:
+    minimum: 3.8
+    maximum: 4.0
+    # alternatively one can also specify the tolerance instead of minimum and maximum values.
+    # If minimum and maximum values are given then the nominal value is optional.
+    # It should only be included if it is given in the datasheet.
+    # (If it is in the datasheet then it must be included.)
+  body_size_y:
+    minimum: 4.8
+    maximum: 5.0
+  overall_size_x:
+    minimum: 5.8
+    maximum: 6.2
+  lead_width:
+    minimum: 0.36
+    maximum: 0.49
+  lead_len:
+    minimum: 0.4
+    maximum: 1.0
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 4
+
+SO-4_4.4x3.9mm_P2.54mm:
+  size_source: 'https://toshiba.semicon-storage.com/info/docget.jsp?did=10047&prodName=TLP3123'
+  body_size_x:
+    nominal: 4.4
+    tolerance: 0.25
+  body_size_y:
+    nominal: 3.9
+    tolerance: 0.25
+  overall_size_x:
+    nominal: 7.0
+    tolerance: 0.4
+  lead_width:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_len:
+    nominal: 0.6
+    tolerance: 0.3
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 2
+
+Texas_PowerPAD_SO-20-1EP_7.52x12.83mm_P1.27mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/opa569.pdf, http://www.ti.com/lit/an/slma004b/slma004b.pdf'
+  #custom_name_format: Texas_PowerPAD_SO-{pincount:d}-1EP_{size_x:.2g}x{size_y:.2g}mm_P{pitch:.2g}mm
+  body_size_x:
+    minimum: 7.45
+    maximum: 7.59
+  body_size_y:
+    minimum: 12.7
+    maximum: 12.95
+  overall_size_x:
+    minimum: 10.16
+    maximum: 10.65
+  overall_height:
+    nominal: 2.65
+    tolerance: 0
+  lead_width:
+    minimum: 0.35
+    maximum: 0.51
+  lead_len:
+    minimum: 0.4
+    maximum: 1.27
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 10
+
+  # EP_size from OPA569 datasheet
+  # _overwrite from PowerPad app note slma004b.pdf
+  # mask size from OPA569 datasheet Figure 16: 3.56 mm x 4.47 mm
+  # Thermal vias from OPA569 datasheet Figure 16: 3x8=24pcs 13mil
+  EP_size_x:
+    minimum: 2.72
+    maximum: 3.81
+  EP_size_x_overwrite: 6.045 # 0.238"
+  EP_mask_x: 3.56
+  EP_size_y:
+    minimum: 3.49
+    maximum: 4.32
+  EP_size_y_overwrite: 12.09 # 0.476"
+  EP_mask_y: 4.47
+
+  thermal_vias:
+    count: [3, 8]
+    # x-pitch 0.026" = 0.66 mm
+    # y-pitch 0.039"/2 = 0.495 mm
+    drill: 0.33 # 0.013"
+    min_annular_ring: 0.08 # (0.495 spacing - 0.33 drill)/2 =  0.08 mm max ring
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.75
+    grid: [0.66, 0.495]
+    paste_avoid_via: False
+    EP_num_paste_pads: [2, 2]

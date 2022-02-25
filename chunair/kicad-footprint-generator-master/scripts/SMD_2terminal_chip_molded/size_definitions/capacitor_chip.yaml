@@ -1,0 +1,125 @@
+C_0603:
+    code_imperial: "0603"
+    code_metric: "1608"
+    body_length:
+        minimum: 1.45
+        maximum: 1.75
+    body_width:
+        minimum: 0.65
+        maximum: 0.95
+    terminal_length:
+        minimum: 0.2
+        maximum: 0.5
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+C_0805:
+    code_imperial: "0805"
+    code_metric: "2012"
+    body_length:
+        minimum: 1.8
+        maximum: 2.2
+    body_width:
+        minimum: 1.05
+        maximum: 1.45
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.55 # deviate from IPC (0.75mm) to avoid excessively wide pads with tight spacing
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)'
+
+C_1206:
+    code_imperial: "1206"
+    code_metric: "3216"
+    body_length:
+        minimum: 3
+        maximum: 3.4
+    body_width:
+        minimum: 1.4
+        maximum: 1.8
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.75
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+C_1210:
+    code_imperial: "1210"
+    code_metric: "3225"
+    body_length:
+        minimum: 3
+        maximum: 3.4
+    body_width:
+        minimum: 2.3
+        maximum: 2.7
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.75
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+C_1812:
+    code_imperial: "1812"
+    code_metric: "4532"
+    body_length:
+        minimum: 4.2
+        maximum: 4.8
+    body_width:
+        minimum: 3
+        maximum: 3.4
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.95
+    size_info: '(Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+C_1825:
+    code_imperial: "1825"
+    code_metric: "4564"
+    body_length:
+        minimum: 4.2
+        maximum: 4.8
+    body_width:
+        minimum: 6
+        maximum: 6.8
+    terminal_length:
+        minimum: 0.25
+        maximum: 0.95
+    size_info: '(Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+C_2220:
+    code_imperial: "2220"
+    code_metric: "5650"
+    body_length:
+        nominal: 5.7
+        tolerance: 0.5
+    body_width:
+        nominal: 5.0
+        tolerance: 0.4
+    terminal_length:
+        nominal: 0.85
+        tolerance: 0.35
+    size_info: '(Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)'
+
+C_2225:
+    code_imperial: "2225"
+    code_metric: "5664"
+    body_length:
+        nominal: 5.72
+        tolerance: 0.25
+    body_width:
+        nominal: 6.35
+        tolerance: 0.25
+    terminal_length:
+        nominal: 0.85
+        tolerance: 0.35
+    size_info: '(Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)'
+
+C_3640:
+    code_imperial: "3640"
+    code_metric: "9110"
+    body_length:
+        nominal: 9.14
+        tolerance: 0.25
+    body_width:
+        nominal: 10.2
+        tolerance: 0.25
+    terminal_length:
+        minimum: 0.76
+        maximum: 1.52
+    size_info: '(Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)'

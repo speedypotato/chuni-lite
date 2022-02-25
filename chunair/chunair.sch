@@ -1,0 +1,625 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_Photo D10
+U 1 1 6216D0B6
+P 4100 5500
+F 0 "D10" H 4050 5795 50  0000 C CNN
+F 1 "D_Photo" H 4050 5704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 5500 50  0001 C CNN
+F 3 "~" H 4050 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 6216EF95
+P 6400 1700
+F 0 "J1" V 6235 1628 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 6326 1628 50  0000 C CNN
+F 2 "chunair_local:SMD_8Pin" H 6400 1700 50  0001 C CNN
+F 3 "~" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 62172C19
+P 4200 5600
+F 0 "R10" H 4259 5646 50  0000 L CNN
+F 1 "10K" H 4259 5555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 5600 50  0001 C CNN
+F 3 "~" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 5500 0    50   ~ 0
+A10
+$Comp
+L power:GND #PWR019
+U 1 1 6217B360
+P 4200 5700
+F 0 "#PWR019" H 4200 5450 50  0001 C CNN
+F 1 "GND" H 4205 5527 50  0000 C CNN
+F 2 "" H 4200 5700 50  0001 C CNN
+F 3 "" H 4200 5700 50  0001 C CNN
+	1    4200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR018
+U 1 1 6217B7A9
+P 3900 5500
+F 0 "#PWR018" H 3900 5350 50  0001 C CNN
+F 1 "+5V" V 3915 5628 50  0000 L CNN
+F 2 "" H 3900 5500 50  0001 C CNN
+F 3 "" H 3900 5500 50  0001 C CNN
+	1    3900 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 6219A6DD
+P 3150 4500
+F 0 "D7" H 3143 4717 50  0000 C CNN
+F 1 "LED" H 3143 4626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 4500 50  0001 C CNN
+F 3 "~" H 3150 4500 50  0001 C CNN
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 6219A6F1
+P 3300 4400
+F 0 "R7" H 3241 4354 50  0000 R CNN
+F 1 "150" H 3241 4445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 4400 50  0001 C CNN
+F 3 "~" H 3300 4400 50  0001 C CNN
+	1    3300 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6219A71A
+P 3000 4500
+F 0 "#PWR014" H 3000 4250 50  0001 C CNN
+F 1 "GND" V 3005 4372 50  0000 R CNN
+F 2 "" H 3000 4500 50  0001 C CNN
+F 3 "" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	0    1    1    0   
+$EndComp
+Text Label 3300 4300 0    50   ~ 0
+8
+$Comp
+L Device:D_Photo D6
+U 1 1 6219FED2
+P 4100 3500
+F 0 "D6" H 4050 3795 50  0000 C CNN
+F 1 "D_Photo" H 4050 3704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 6219FEE6
+P 4200 3600
+F 0 "R6" H 4259 3646 50  0000 L CNN
+F 1 "10K" H 4259 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 3600 50  0001 C CNN
+F 3 "~" H 4200 3600 50  0001 C CNN
+	1    4200 3600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 3500 0    50   ~ 0
+A1
+$Comp
+L power:GND #PWR013
+U 1 1 6219FEF1
+P 4200 3700
+F 0 "#PWR013" H 4200 3450 50  0001 C CNN
+F 1 "GND" H 4205 3527 50  0000 C CNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 6219FEFB
+P 3900 3500
+F 0 "#PWR012" H 3900 3350 50  0001 C CNN
+F 1 "+5V" V 3915 3628 50  0000 L CNN
+F 2 "" H 3900 3500 50  0001 C CNN
+F 3 "" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 621A4D9D
+P 3150 2500
+F 0 "D3" H 3143 2717 50  0000 C CNN
+F 1 "LED" H 3143 2626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 2500 50  0001 C CNN
+F 3 "~" H 3150 2500 50  0001 C CNN
+	1    3150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 621A4DC5
+P 3300 2400
+F 0 "R3" H 3241 2354 50  0000 R CNN
+F 1 "150" H 3241 2445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 2400 50  0001 C CNN
+F 3 "~" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 621A4DEE
+P 3000 2500
+F 0 "#PWR06" H 3000 2250 50  0001 C CNN
+F 1 "GND" V 3005 2372 50  0000 R CNN
+F 2 "" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	0    1    1    0   
+$EndComp
+Text Label 3300 2300 0    50   ~ 0
+14
+$Comp
+L Device:D_Photo D2
+U 1 1 621A950A
+P 4100 1500
+F 0 "D2" H 4050 1795 50  0000 C CNN
+F 1 "D_Photo" H 4050 1704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 1500 50  0001 C CNN
+F 3 "~" H 4050 1500 50  0001 C CNN
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 621A951E
+P 4200 1600
+F 0 "R2" H 4259 1646 50  0000 L CNN
+F 1 "10K" H 4259 1555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 1600 50  0001 C CNN
+F 3 "~" H 4200 1600 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 1500 0    50   ~ 0
+A3
+$Comp
+L power:GND #PWR05
+U 1 1 621A9529
+P 4200 1700
+F 0 "#PWR05" H 4200 1450 50  0001 C CNN
+F 1 "GND" H 4205 1527 50  0000 C CNN
+F 2 "" H 4200 1700 50  0001 C CNN
+F 3 "" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 621A9533
+P 3900 1500
+F 0 "#PWR02" H 3900 1350 50  0001 C CNN
+F 1 "+5V" V 3915 1628 50  0000 L CNN
+F 2 "" H 3900 1500 50  0001 C CNN
+F 3 "" H 3900 1500 50  0001 C CNN
+	1    3900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 621B4E37
+P 6100 1500
+F 0 "#PWR03" H 6100 1350 50  0001 C CNN
+F 1 "+5V" H 6115 1673 50  0000 C CNN
+F 2 "" H 6100 1500 50  0001 C CNN
+F 3 "" H 6100 1500 50  0001 C CNN
+	1    6100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 621B5DE6
+P 6500 1500
+F 0 "#PWR04" H 6500 1250 50  0001 C CNN
+F 1 "GND" H 6505 1327 50  0000 C CNN
+F 2 "" H 6500 1500 50  0001 C CNN
+F 3 "" H 6500 1500 50  0001 C CNN
+	1    6500 1500
+	-1   0    0    1   
+$EndComp
+Text Label 3300 6300 0    50   ~ 0
+6
+$Comp
+L power:GND #PWR020
+U 1 1 621B0EC6
+P 3000 6500
+F 0 "#PWR020" H 3000 6250 50  0001 C CNN
+F 1 "GND" V 3005 6372 50  0000 R CNN
+F 2 "" H 3000 6500 50  0001 C CNN
+F 3 "" H 3000 6500 50  0001 C CNN
+	1    3000 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 621B0E9D
+P 3300 6400
+F 0 "R11" H 3241 6354 50  0000 R CNN
+F 1 "150" H 3241 6445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 6400 50  0001 C CNN
+F 3 "~" H 3300 6400 50  0001 C CNN
+	1    3300 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 621B0E89
+P 3150 6500
+F 0 "D11" H 3143 6717 50  0000 C CNN
+F 1 "LED" H 3143 6626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 6500 50  0001 C CNN
+F 3 "~" H 3150 6500 50  0001 C CNN
+	1    3150 6500
+	1    0    0    -1  
+$EndComp
+Text Label 6200 1500 0    50   ~ 0
+6
+Text Label 6300 1500 0    50   ~ 0
+8
+Text Label 6400 1500 0    50   ~ 0
+14
+Text Label 6600 1500 0    50   ~ 0
+A10
+Text Label 6700 1500 0    50   ~ 0
+A1
+Text Label 6800 1500 0    50   ~ 0
+A3
+$Comp
+L Device:D_Photo D12
+U 1 1 6216EBAC
+P 4100 6500
+F 0 "D12" H 4050 6795 50  0000 C CNN
+F 1 "D_Photo" H 4050 6704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 6500 50  0001 C CNN
+F 3 "~" H 4050 6500 50  0001 C CNN
+	1    4100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 6216EBB6
+P 4200 6600
+F 0 "R12" H 4259 6646 50  0000 L CNN
+F 1 "10K" H 4259 6555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 6600 50  0001 C CNN
+F 3 "~" H 4200 6600 50  0001 C CNN
+	1    4200 6600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 6500 0    50   ~ 0
+A9
+$Comp
+L power:GND #PWR022
+U 1 1 6216EBC1
+P 4200 6700
+F 0 "#PWR022" H 4200 6450 50  0001 C CNN
+F 1 "GND" H 4205 6527 50  0000 C CNN
+F 2 "" H 4200 6700 50  0001 C CNN
+F 3 "" H 4200 6700 50  0001 C CNN
+	1    4200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR021
+U 1 1 6216EBCB
+P 3900 6500
+F 0 "#PWR021" H 3900 6350 50  0001 C CNN
+F 1 "+5V" V 3915 6628 50  0000 L CNN
+F 2 "" H 3900 6500 50  0001 C CNN
+F 3 "" H 3900 6500 50  0001 C CNN
+	1    3900 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Photo D8
+U 1 1 62171441
+P 4100 4500
+F 0 "D8" H 4050 4795 50  0000 C CNN
+F 1 "D_Photo" H 4050 4704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 4500 50  0001 C CNN
+F 3 "~" H 4050 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 6217144B
+P 4200 4600
+F 0 "R8" H 4259 4646 50  0000 L CNN
+F 1 "10K" H 4259 4555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 4600 50  0001 C CNN
+F 3 "~" H 4200 4600 50  0001 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 4500 0    50   ~ 0
+A0
+$Comp
+L power:GND #PWR016
+U 1 1 62171456
+P 4200 4700
+F 0 "#PWR016" H 4200 4450 50  0001 C CNN
+F 1 "GND" H 4205 4527 50  0000 C CNN
+F 2 "" H 4200 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR015
+U 1 1 62171460
+P 3900 4500
+F 0 "#PWR015" H 3900 4350 50  0001 C CNN
+F 1 "+5V" V 3915 4628 50  0000 L CNN
+F 2 "" H 3900 4500 50  0001 C CNN
+F 3 "" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Photo D4
+U 1 1 62173E05
+P 4100 2500
+F 0 "D4" H 4050 2795 50  0000 C CNN
+F 1 "D_Photo" H 4050 2704 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 4050 2500 50  0001 C CNN
+F 3 "~" H 4050 2500 50  0001 C CNN
+	1    4100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 62173E25
+P 4200 2600
+F 0 "R4" H 4259 2646 50  0000 L CNN
+F 1 "10K" H 4259 2555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 2600 50  0001 C CNN
+F 3 "~" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+Text Label 4200 2500 0    50   ~ 0
+A2
+$Comp
+L power:GND #PWR08
+U 1 1 62173E30
+P 4200 2700
+F 0 "#PWR08" H 4200 2450 50  0001 C CNN
+F 1 "GND" H 4205 2527 50  0000 C CNN
+F 2 "" H 4200 2700 50  0001 C CNN
+F 3 "" H 4200 2700 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 62173E3A
+P 3900 2500
+F 0 "#PWR07" H 3900 2350 50  0001 C CNN
+F 1 "+5V" V 3915 2628 50  0000 L CNN
+F 2 "" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+	1    3900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 62177BCD
+P 3150 1500
+F 0 "D1" H 3143 1717 50  0000 C CNN
+F 1 "LED" H 3143 1626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 1500 50  0001 C CNN
+F 3 "~" H 3150 1500 50  0001 C CNN
+	1    3150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 62177BD7
+P 3300 1400
+F 0 "R1" H 3241 1354 50  0000 R CNN
+F 1 "150" H 3241 1445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 1400 50  0001 C CNN
+F 3 "~" H 3300 1400 50  0001 C CNN
+	1    3300 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 62177BE1
+P 3000 1500
+F 0 "#PWR01" H 3000 1250 50  0001 C CNN
+F 1 "GND" V 3005 1372 50  0000 R CNN
+F 2 "" H 3000 1500 50  0001 C CNN
+F 3 "" H 3000 1500 50  0001 C CNN
+	1    3000 1500
+	0    1    1    0   
+$EndComp
+Text Label 3300 1300 0    50   ~ 0
+15
+$Comp
+L Device:LED D5
+U 1 1 621797A8
+P 3150 3500
+F 0 "D5" H 3143 3717 50  0000 C CNN
+F 1 "LED" H 3143 3626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 3500 50  0001 C CNN
+F 3 "~" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 621797B2
+P 3300 3400
+F 0 "R5" H 3241 3354 50  0000 R CNN
+F 1 "150" H 3241 3445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 621797BC
+P 3000 3500
+F 0 "#PWR011" H 3000 3250 50  0001 C CNN
+F 1 "GND" V 3005 3372 50  0000 R CNN
+F 2 "" H 3000 3500 50  0001 C CNN
+F 3 "" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	0    1    1    0   
+$EndComp
+Text Label 3300 3300 0    50   ~ 0
+16
+$Comp
+L Device:LED D9
+U 1 1 6217B433
+P 3150 5500
+F 0 "D9" H 3143 5717 50  0000 C CNN
+F 1 "LED" H 3143 5626 50  0000 C CNN
+F 2 "chunair_local:LED_D5.0mm_FlatTop" H 3150 5500 50  0001 C CNN
+F 3 "~" H 3150 5500 50  0001 C CNN
+	1    3150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 6217B43D
+P 3300 5400
+F 0 "R9" H 3241 5354 50  0000 R CNN
+F 1 "150" H 3241 5445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 5400 50  0001 C CNN
+F 3 "~" H 3300 5400 50  0001 C CNN
+	1    3300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6217B447
+P 3000 5500
+F 0 "#PWR017" H 3000 5250 50  0001 C CNN
+F 1 "GND" V 3005 5372 50  0000 R CNN
+F 2 "" H 3000 5500 50  0001 C CNN
+F 3 "" H 3000 5500 50  0001 C CNN
+	1    3000 5500
+	0    1    1    0   
+$EndComp
+Text Label 3300 5300 0    50   ~ 0
+7
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 6216F1EF
+P 6400 3150
+F 0 "J2" V 6235 3078 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 6326 3078 50  0000 C CNN
+F 2 "chunair_local:SMD_8Pin" H 6400 3150 50  0001 C CNN
+F 3 "~" H 6400 3150 50  0001 C CNN
+	1    6400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 6216F1F9
+P 6100 2950
+F 0 "#PWR09" H 6100 2800 50  0001 C CNN
+F 1 "+5V" H 6115 3123 50  0000 C CNN
+F 2 "" H 6100 2950 50  0001 C CNN
+F 3 "" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6216F203
+P 6500 2950
+F 0 "#PWR010" H 6500 2700 50  0001 C CNN
+F 1 "GND" H 6505 2777 50  0000 C CNN
+F 2 "" H 6500 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	-1   0    0    1   
+$EndComp
+Text Label 6200 2950 0    50   ~ 0
+7
+Text Label 6300 2950 0    50   ~ 0
+16
+Text Label 6400 2950 0    50   ~ 0
+15
+Text Label 6600 2950 0    50   ~ 0
+A9
+Text Label 6700 2950 0    50   ~ 0
+A0
+Text Label 6800 2950 0    50   ~ 0
+A2
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 621744FB
+P 10450 900
+F 0 "H1" H 10550 946 50  0000 L CNN
+F 1 "MountingHole" H 10550 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10450 900 50  0001 C CNN
+F 3 "~" H 10450 900 50  0001 C CNN
+	1    10450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62174F68
+P 10450 1200
+F 0 "H2" H 10550 1246 50  0000 L CNN
+F 1 "MountingHole" H 10550 1155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10450 1200 50  0001 C CNN
+F 3 "~" H 10450 1200 50  0001 C CNN
+	1    10450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62175253
+P 10450 1500
+F 0 "H3" H 10550 1546 50  0000 L CNN
+F 1 "MountingHole" H 10550 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10450 1500 50  0001 C CNN
+F 3 "~" H 10450 1500 50  0001 C CNN
+	1    10450 1500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

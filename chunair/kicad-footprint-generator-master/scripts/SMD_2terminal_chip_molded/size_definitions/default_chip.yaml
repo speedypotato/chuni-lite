@@ -1,0 +1,126 @@
+#ToDo: update dimensions without capacitor, fuse, inductor, and resistor sizes
+#   where those part types have a unique size definition file
+SMD_0603:
+    code_imperial: "0603"
+    code_metric: "1608"
+    body_length:
+      nominal: 1.6
+      minimum: 1.5
+      maximum: 1.7
+    body_width:
+      nominal: 0.8
+      minimum: 0.7
+      maximum: 0.95
+    terminator_spacing:
+      minimum: 0.7
+      maximum: 1.11
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+
+SMD_0805:
+    code_imperial: "0805"
+    code_metric: "2012"
+    body_length:
+      nominal: 2.0
+      minimum: 1.86
+      maximum: 2.15
+    body_width:
+      nominal: 1.2
+      minimum: 1.12
+      maximum: 1.38
+    terminator_spacing:
+      minimum: 0.89
+      maximum: 1.55
+    size_info: '(Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)'
+
+# SMD_1008:
+# I did not find any part that uses this package.
+#     code_imperial: "1008"
+#     code_metric: "2520"
+
+SMD_1206:
+    code_imperial: "1206"
+    code_metric: "3216"
+    body_length:
+      nominal: 3.2
+      minimum: 3.05
+      maximum: 3.35
+    body_width:
+      nominal: 1.6
+      minimum: 1.45
+      maximum: 1.75
+    terminator_spacing:
+      minimum: 1.55
+      maximum: 2.32
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+
+SMD_1210:
+    code_imperial: "1210"
+    code_metric: "3225"
+    body_length:
+      nominal: 3.2
+      minimum: 3.05
+      maximum: 3.35
+    body_width:
+      nominal: 2.5
+      minimum: 2.34
+      maximum: 2.64
+    terminator_spacing:
+      minimum: 1.55
+      maximum: 2.32
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+
+#Could not find any LED, diode or fuse in this body size
+# SMD_1806:
+    # code_imperial: "1806"
+    # code_metric: "4516"
+
+SMD_1812:
+    code_imperial: "1812"
+    code_metric: "4532"
+    body_length:
+        nominal: 4.5
+        tolerance: 0.2
+    body_width:
+        nominal: 3.2
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.2
+    size_info: '(Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)'
+
+SMD_2010:
+    code_imperial: "2010"
+    code_metric: "5025"
+    body_length:
+      nominal: 5.0
+      minimum: 4.85
+      maximum: 5.15
+    body_width:
+      nominal: 2.5
+      minimum: 2.35
+      maximum: 2.65
+    terminator_spacing:
+      minimum: 3.15
+      maximum: 3.92
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+
+SMD_2512:
+    code_imperial: "2512"
+    code_metric: "6332"
+    body_length:
+      nominal: 6.3
+      minimum: 6.15
+      maximum: 6.45
+    body_width:
+      nominal: 3.2
+      minimum: 3.05
+      maximum: 3.35
+    terminator_spacing:
+      minimum: 4.45
+      maximum: 5.22
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+
+#Could not find any LED, diode, inductor or fuse in this body size
+# SMD_2816:
+    # code_imperial: "2816"
+    # code_metric: "7142"

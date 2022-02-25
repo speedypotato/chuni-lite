@@ -1,0 +1,13 @@
+SMD_2920:
+    code_imperial: "2920"
+    code_metric: "7451"
+    body_length:
+        minimum: 6.73
+        maximum: 7.98
+    body_width:
+        minimum: 4.8
+        maximum: 5.44
+    terminal_length:
+        minimum: 0.5
+        maximum: 1.2
+    size_info: '(Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf)'

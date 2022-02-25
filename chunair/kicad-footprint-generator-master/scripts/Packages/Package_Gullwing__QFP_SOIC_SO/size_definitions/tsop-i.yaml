@@ -1,0 +1,328 @@
+FileHeader:
+  library_Suffix: 'SO'
+  device_type: 'TSOP-I'
+
+TSOP-I-32_11.80x8.00mm_P0.50mm:
+  size_source: 'http://www.issi.com/WW/pdf/61-64C5128AL.pdf'
+  body_size_x:
+    minimum: 11.70
+    maximum: 11.90
+  body_size_y:
+    minimum: 7.90
+    maximum: 8.10
+  overall_size_x:
+    minimum: 13.10
+    maximum: 13.70
+  lead_width:
+    minimum: 0.16
+    maximum: 0.27
+  lead_len:
+    minimum: 0.30
+    maximum: 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSOP-I-24_12.4x6mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation AA'
+  body_size_x: 12.40 +/-0.10
+  body_size_y: 6.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 14.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSOP-I-24_14.4x6mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation AB'
+  body_size_x: 14.40 +/-0.10
+  body_size_y: 6.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 16.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSOP-I-24_16.4x6mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation AC'
+  body_size_x: 16.40 +/-0.10
+  body_size_y: 6.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 18.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSOP-I-24_18.4x6mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation AD'
+  body_size_x: 18.40 +/-0.10
+  body_size_y: 6.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 20.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSOP-I-32_12.4x8mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation BA'
+  body_size_x: 12.40 +/-0.10
+  body_size_y: 8.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 14.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSOP-I-32_14.4x8mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation BB'
+  body_size_x: 14.40 +/-0.10
+  body_size_y: 8.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 16.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSOP-I-32_16.4x8mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation BC'
+  body_size_x: 16.40 +/-0.10
+  body_size_y: 8.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 18.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSOP-I-32_18.4x8mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation BD'
+  body_size_x: 18.40 +/-0.10
+  body_size_y: 8.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 20.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSOP-I-40_12.4x10mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation CA'
+  body_size_x: 12.40 +/-0.10
+  body_size_y: 10.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 14.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSOP-I-40_14.4x10mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation CB'
+  body_size_x: 14.40 +/-0.10
+  body_size_y: 10.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 16.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSOP-I-40_16.4x10mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation CC'
+  body_size_x: 16.40 +/-0.10
+  body_size_y: 10.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 18.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSOP-I-40_18.4x10mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation CD'
+  body_size_x: 18.40 +/-0.10
+  body_size_y: 10.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 20.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSOP-I-48_12.4x12mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation DA'
+  body_size_x: 12.40 +/-0.10
+  body_size_y: 12.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 14.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSOP-I-48_14.4x12mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation DB'
+  body_size_x: 14.40 +/-0.10
+  body_size_y: 12.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 16.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSOP-I-48_16.4x12mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation DC'
+  body_size_x: 16.40 +/-0.10
+  body_size_y: 12.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 18.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSOP-I-48_18.4x12mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation DD'
+  body_size_x: 18.40 +/-0.10
+  body_size_y: 12.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 20.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSOP-I-56_14.4x14mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation EA'
+  body_size_x: 14.40 +/-0.10
+  body_size_y: 14.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 16.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 28
+
+TSOP-I-56_16.4x14mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation EB'
+  body_size_x: 16.40 +/-0.10
+  body_size_y: 14.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 18.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 28
+
+TSOP-I-56_18.4x14mm_P0.5mm:
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-142-d variation EC'
+  body_size_x: 18.40 +/-0.10
+  body_size_y: 14.00 +/-0.10
+  height:
+    overall: N/A .. 1.2
+    standoff: 0.05 .. 0.15
+    body: 0.95 .. 1.0 .. 1.05
+  lead_height: 0.1 .. 0.21
+  overall_size_x: 20.00 +/-0.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.50 .. 0.60 .. 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 28

@@ -1,0 +1,16 @@
+SMD_0402:
+    code_imperial: "0402"
+    code_metric: "1005"
+    body_length:
+      nominal: 1.0
+      minimum: 1.0
+      maximum: 1.1
+    body_width:
+      nominal: 0.5
+      minimum: 0.48
+      maximum: 0.6
+    terminator_spacing:
+      minimum: 0.4
+      maximum: 0.7
+    size_info: '(Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)'
+    ipc_reference: "ipc_spec_smaller_0603"

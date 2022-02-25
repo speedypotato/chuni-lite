@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name chunair_local)(type KiCad)(uri D:/KiCad/chunair/chunair_local.pretty)(options "")(descr ""))
+)

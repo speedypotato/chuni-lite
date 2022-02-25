@@ -1,0 +1,55 @@
+L_0805:
+    code_imperial: "0805"
+    code_metric: "2012"
+    body_length:
+        minimum: 1.7
+        maximum: 2.3
+    body_width:
+        minimum: 0.6
+        maximum: 1.2
+    terminal_length:
+        minimum: 0.1
+        maximum: 0.3
+    size_info: '(Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+L_1008:
+  code_imperial: "1008"
+  code_metric: "2520"
+  body_length:
+    nominal: 2.5
+    tolerance: 0.2
+  body_width:
+    nominal: 2.0
+    tolerance: 0.2
+  terminal_length:
+    nominal: 0.6
+    tolerance: 0.25
+  size_info: '(Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf)'
+
+L_1206:
+    code_imperial: "1206"
+    code_metric: "3216"
+    body_length:
+        minimum: 2.9
+        maximum: 3.5
+    body_width:
+        minimum: 1.3
+        maximum: 1.9
+    terminal_length:
+        minimum: 0.2
+        maximum: 0.5
+    size_info: '(Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'
+
+L_1806:
+    code_imperial: "1806"
+    code_metric: "4516"
+    body_length:
+        minimum: 4.2
+        maximum: 4.8
+    body_width: # IPC-SM-782 shows 0.6-1.2mm which seems to be a copy and paste error from the 2012 body width, so copy the 3216 dimensions
+        minimum: 1.3
+        maximum: 1.9
+    terminal_length:
+        minimum: 0.3
+        maximum: 0.8
+    size_info: '(Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)'

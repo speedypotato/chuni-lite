@@ -1,0 +1,58 @@
+R_0612:
+    code_imperial: "0612"
+    code_metric: "1632"
+    body_length:
+      nominal: 1.6
+      tolerance: 0.2
+    body_width:
+      nominal: 3.2
+      tolerance: 0.2
+    terminal_length:
+      nominal: 0.4
+      tolerance: 0.15
+    size_info: '(Body size source: https://www.vishay.com/docs/20019/rcwe.pdf)'
+
+R_0815:
+    code_imperial: "0815"
+    code_metric: "2038"
+    body_length:
+        nominal: 2.0
+        tolerance: 0.2
+    body_width:
+        nominal: 3.75
+        tolerance: 0.3
+    terminal_length:
+        nominal: 0.4
+        tolerance: 0.2
+    size_info: '(Body size source: https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf)'
+    # originally used https://www.vishay.com/docs/20019/rcwe.pdf but that part is gone
+    # https://www.bourns.com/docs/Product-Datasheets/CRK.pdf has a strange 2.3mm nominal width
+    # https://www.seielect.com/catalog/sei-csr_csrn.pdf nearly matches Sumusu so went with those
+
+R_1020:
+    code_imperial: "1020"
+    code_metric: "2550"
+    body_length:
+      nominal: 2.5
+      tolerance: 0.2
+    body_width:
+      nominal: 5.0
+      tolerance: 0.2
+    terminal_length:
+      nominal: 0.55
+      tolerance: 0.15
+    size_info: '(Body size source: https://www.vishay.com/docs/20019/rcwe.pdf)'
+
+R_1218:
+    code_imperial: "1218"
+    code_metric: "3246"
+    body_length:
+        nominal: 3.2
+        tolerance: [0.2, 0.1]
+    body_width:
+        nominal: 4.6
+        tolerance: 0.15
+    terminal_length:
+        nominal: 0.45
+        tolerance: 0.2
+    size_info: '(Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf)'

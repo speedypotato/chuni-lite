@@ -1,0 +1,29 @@
+SMD_01005:
+    code_imperial: "01005"
+    code_metric: "0402"
+    body_length:
+      nominal: 0.4
+      tolerance: 0.02
+    body_width:
+      nominal: 0.2
+      tolerance: 0.02
+    terminal_length:
+      nominal: 0.1
+      tolerance: 0.03
+    size_info: '(Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf)'
+    ipc_reference: "ipc_spec_smaller_0603"
+
+SMD_0201:
+   code_imperial: "0201"
+   code_metric: "0603"
+   body_length:
+      nominal: 0.6
+      tolerance: 0.05
+   body_width:
+      nominal: 0.3
+      tolerance: 0.05
+   terminal_length:
+      nominal: 0.15
+      tolerance: 0.05
+   size_info: '(Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)'
+   ipc_reference: "ipc_spec_smaller_0603"

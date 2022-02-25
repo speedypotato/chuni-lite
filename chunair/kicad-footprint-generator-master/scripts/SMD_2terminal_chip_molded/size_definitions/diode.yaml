@@ -1,0 +1,27 @@
+SMD_2114:
+    code_imperial: "2114"
+    code_metric: "3652"
+    body_length:
+      nominal: 5.2
+      tolerance: 0.1
+    body_width:
+      nominal: 3.6
+      tolerance: 0.1
+    terminal_length:
+      nominal: 1.15
+      tolerance: 0.1
+    size_info: '(Body size from: http://datasheets.avx.com/schottky.pdf)'
+
+SMD_3220:
+    code_imperial: "3220"
+    code_metric: "8050"
+    body_length:
+      nominal: 8.0
+      tolerance: 0.1
+    body_width:
+      nominal: 5.0
+      tolerance: 0.1
+    terminal_length:
+      nominal: 1.95
+      tolerance: 0.1
+    size_info: '(Body size from: http://datasheets.avx.com/schottky.pdf)'
