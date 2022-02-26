@@ -5,7 +5,7 @@
 #include <FastLED.h>
 
 #define NUM_IR 6          // Number of IR Beams
-#define IR_THRESHOLD 0.5  // % required to trigger
+#define IR_THRESHOLD 0.6  // % required to trigger
 struct {
   uint8_t irPin;    // LED Pin
   uint8_t recPin;   // Photodiode Pin
@@ -24,8 +24,8 @@ struct {
 #define COIN 5        // Coin Pin
 #define COIN_KEY '3'  // Output Keystroke
 
-#define LEFT_PIN      4
-#define RIGHT_PIN     3
+#define LEFT_PIN      3
+#define RIGHT_PIN     4
 #define NUM_LEDS 3
 #define LED_NUM_MAX 66
 
@@ -42,7 +42,7 @@ struct {
 size_t off;
 bool escape;
 
-#define CALIBRATION_CYCLES 5
+#define CALIBRATION_CYCLES 10
 
 /**
    IR Beam Calibration Procedure

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
+  (lib (name chunair_local)(type KiCad)(uri D:/KiCad/chunair/chunair_local.pretty)(options "")(descr ""))
+)
