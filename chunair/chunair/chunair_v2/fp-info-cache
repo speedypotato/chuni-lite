@@ -1,4 +1,4 @@
-19219390769001199
+19224328639805427
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83034,6 +83034,13 @@ LED Round FlatTop diameter 5.0mm 2 pins
 4
 4
 chunair_local
+SMD_3Pin
+Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
+resistor array
+0
+3
+3
+chunair_local
 SMD_8Pin
 Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
 resistor array
@@ -83049,6 +83056,20 @@ air_art
 0
 chunair_local
 air_art_back
+
+
+0
+0
+0
+chunair_local
+logo
+
+
+0
+0
+0
+chunair_local
+logo_small
 
 
 0

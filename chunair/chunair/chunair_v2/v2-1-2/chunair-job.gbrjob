@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2022-02-27T18:22:25-05:00"
+    "CreationDate":  "2022-02-27T18:28:29-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "chunair_core",
-      "GUID": "6368756e-6169-4725-9f63-6f72652e6b69",
+      "Name": "chunair",
+      "GUID": "6368756e-6169-4722-9e6b-696361645f70",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 34.050,
-      "Y": 53.050
+      "X": 218.787,
+      "Y": 37.811
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -32,7 +32,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.254,
+      "MinLineWidth":  0.381,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "chunair_core-F_Cu.gbr",
+      "Path":  "chunair-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-B_Cu.gbr",
+      "Path":  "chunair-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-F_Paste.gbr",
+      "Path":  "chunair-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-B_Paste.gbr",
+      "Path":  "chunair-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-F_SilkS.gbr",
+      "Path":  "chunair-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-B_SilkS.gbr",
+      "Path":  "chunair-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chunair_core-F_Mask.gbr",
+      "Path":  "chunair-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "chunair_core-B_Mask.gbr",
+      "Path":  "chunair-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "chunair_core-Edge_Cuts.gbr",
+      "Path":  "chunair-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
