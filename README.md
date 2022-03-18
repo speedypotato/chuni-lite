@@ -1,6 +1,8 @@
 # chuni-lite
 kinda cheap slidy air towers for an arcade chuni slider.
 
+Note: I swapped the side the pads are on for chunair_core.  Oops.  Wires will go across the board for now, no biggie.  WS2811/WS2812B optional.
+
 Slider needs:
 - HiLetgo 2pcs DB9 Female Adapter RS232 to Terminal RS232 Serial to Terminal DB9 Connector Convert Adapter https://www.amazon.com/gp/product/B082F873KQ (technically just one)
 - CQRobot 450 Pieces 2.54mm JST-XA JST Connector Kit. 2.54mm Pitch Female Pin Header, JST XA 2/3 / 4 Pin Housing JST Adapter Cable Connector Socket Male and Female, Crimp DIP Kit. https://www.amazon.com/gp/product/B085QMRHK6 (technically just a 3 & 4 pin)

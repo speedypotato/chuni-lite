@@ -66,6 +66,7 @@ int readBeam(int beamIndex) {
   delayMicroseconds(200); //300 seems the highest that's needed, can go lower maybe
   int result = analogRead(beams[beamIndex].recPin);
   digitalWrite(beams[beamIndex].irPin, LOW);
+//  Serial.print(String(result) + "\t");
   return result;
 }
 
@@ -77,6 +78,11 @@ void setup() {
   // just steal the raw array values lol
   FastLED.addLeds<WS2811, LEFT_PIN, RGB>(&ledData.data[50], NUM_LEDS).setCorrection( TypicalLEDStrip );
   FastLED.addLeds<WS2811, RIGHT_PIN, RGB>(&ledData.data[60], NUM_LEDS).setCorrection( TypicalLEDStrip );
+  // initialize to white
+  for (int i = 0; i < LED_NUM_MAX; i++) {
+    ledData.data[i] = CRGB::White;
+  }
+  
   FastLED.show();
 
   for (uint8_t i = 0; i < NUM_IR; i++) {
@@ -100,12 +106,13 @@ void loop() {
       Keyboard.release(beams[i].key);
     }
   }
+//  Serial.println();
 
-  //    if(digitalRead(COIN) == LOW) {
-  //    Keyboard.press(COIN_KEY);
-  //    } else {
-  //    Keyboard.release(COIN_KEY);
-  //    }
+//  if(digitalRead(COIN) == LOW) {
+//    Keyboard.press(COIN_KEY);
+//  } else {
+//    Keyboard.release(COIN_KEY);
+//  }
 
   while (Serial.available()) {
     uint8_t b = Serial.read();
