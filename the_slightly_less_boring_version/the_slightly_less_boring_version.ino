@@ -66,7 +66,6 @@ int readBeam(int beamIndex) {
   delayMicroseconds(200); //300 seems the highest that's needed, can go lower maybe
   int result = analogRead(beams[beamIndex].recPin);
   digitalWrite(beams[beamIndex].irPin, LOW);
-//  Serial.print(String(result) + "\t");
   return result;
 }
 
@@ -75,30 +74,24 @@ void setup() {
   Serial.begin(115200);
   Keyboard.begin();
 
-  // just steal the raw array values lol
-  FastLED.addLeds<WS2811, LEFT_PIN, RGB>(&ledData.data[50], NUM_LEDS).setCorrection( TypicalLEDStrip );
-  FastLED.addLeds<WS2811, RIGHT_PIN, RGB>(&ledData.data[60], NUM_LEDS).setCorrection( TypicalLEDStrip );
-  // initialize to white
-  for (int i = 0; i < LED_NUM_MAX; i++) {
-    ledData.data[i] = CRGB::White;
-  }
-  
-  FastLED.show();
-
   for (uint8_t i = 0; i < NUM_IR; i++) {
     pinMode(beams[i].recPin, INPUT);
     pinMode(beams[i].irPin, OUTPUT);
   }
+  beamCalibration();
 
   pinMode(COIN, INPUT_PULLUP);
 
-  beamCalibration();
-
-  delay(5000);
+  // just steal the raw array values lol
+  FastLED.addLeds<WS2811, LEFT_PIN, RGB>(&ledData.data[50], NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<WS2811, RIGHT_PIN, RGB>(&ledData.data[60], NUM_LEDS).setCorrection( TypicalLEDStrip );
+  // initialize to white
+  fill_solid(&ledData.data[50], NUM_LEDS, CRGB::White);
+  fill_solid(&ledData.data[60], NUM_LEDS, CRGB::White);
+  FastLED.show();
 }
 
 void loop() {
-  String output = "";
   for (uint8_t i = 0; i < NUM_IR; i++) {
     if (readBeam(i) < (IR_THRESHOLD * beams[i].val)) {
       Keyboard.press(beams[i].key);
@@ -106,13 +99,12 @@ void loop() {
       Keyboard.release(beams[i].key);
     }
   }
-//  Serial.println();
 
-//  if(digitalRead(COIN) == LOW) {
-//    Keyboard.press(COIN_KEY);
-//  } else {
-//    Keyboard.release(COIN_KEY);
-//  }
+  if(digitalRead(COIN) == LOW) {
+    Keyboard.press(COIN_KEY);
+  } else {
+    Keyboard.release(COIN_KEY);
+  }
 
   while (Serial.available()) {
     uint8_t b = Serial.read();
@@ -122,15 +114,9 @@ void loop() {
         size_t len = off - 1;
         if (ledData.board == 0 && len == 3 * BOARD0_LEDS) {
           FastLED[0].showLeds();
-          //Serial1.println("Update left");
         } else if (ledData.board == 1 && len == 3 * BOARD1_LEDS) {
           FastLED[1].showLeds();
-          //Serial1.println("Update right");
         }
-        // Serial1.print("Board ");
-        // Serial1.print(ledData.board);
-        // Serial1.print(" len ");
-        // Serial1.println(len);
       }
       escape = false;
       off = 0;
