@@ -38,7 +38,7 @@ Basic steps:
 0. Wire up your slider's 12v and DB9.  Crimps recommended.  11" 4 wire recommended for 12v, 9" 3 wire for DB9.
 1. Print parts.  Then print a mirrored set.
 2. Assemble slider_rail and air_tower with hinge, flat head screws, and nuts and insert into slider (double check orientation)
-3. Glue leds/pds if you are using air_tower_top_1.  Wire according to the diagram in "ac chuni/wiring.png".  If you have PCB, solder resistors and leds/pds.  With PCB, recommended wire length is around 30", 9 wires for RGB, 8 for no RGB.
+3. Glue leds/pds if you are using air_tower_top_1.  Wire according to the diagram in "ac chuni/wiring.png".  If you have PCB, solder resistors and leds/pds.  With PCB, recommended wire length is around 30", 9 wires for RGB, 8 for no RGB.  
 3a. If you want RGB, add a 3 piece WS2812B LED strip in the middle and solder it up like the picture.
 4. Shove unsoldered end of ribbon cable through the channel.
 5. Screw air_tower_top_2 to the pcb or air_tower_top_1(depending on which you have) using rounded m3 heads while threading through air_tower.  Don't forget to put the printed bumper piece on one of the screws.
