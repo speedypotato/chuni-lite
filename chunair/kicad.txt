@@ -1,1 +1,0 @@
-the menus and process is a little different on the newer kicad but all you need to do is click the mounting hole footprint, hit ctrl+r, click select item, and then click the circle.  Thanks for this, on my second PCB and I figured there was a better way to do this than manually tracing cut lines lol.

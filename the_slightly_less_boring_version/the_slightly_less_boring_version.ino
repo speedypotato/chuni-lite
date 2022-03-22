@@ -65,6 +65,7 @@ int readBeam(int beamIndex) {
   digitalWrite(beams[beamIndex].irPin, HIGH);
   delayMicroseconds(200); //300 seems the highest that's needed, can go lower maybe
   int result = analogRead(beams[beamIndex].recPin);
+  Serial.print(String(result) + "\t");
   digitalWrite(beams[beamIndex].irPin, LOW);
   return result;
 }
@@ -99,6 +100,7 @@ void loop() {
       Keyboard.release(beams[i].key);
     }
   }
+  Serial.println();
 
   if(digitalRead(COIN) == LOW) {
     Keyboard.press(COIN_KEY);
