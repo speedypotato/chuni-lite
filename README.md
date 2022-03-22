@@ -31,6 +31,7 @@ Air towers need:
 - 3D printed parts + a mirrored set
 - USB C cable
 - Hot Glue & Super Glue
+- Small zip ties x4
 
 Can hand wire, or replace air_tower_top_1 3D print with chunair pcb.  chunair_core PCB also optional, but is there for ease of wiring(find a way to secure the pro micro if you don't use chunair_core)
 
@@ -44,9 +45,9 @@ Basic steps:
 5. Screw air_tower_top_2 to the pcb or air_tower_top_1(depending on which you have) using rounded m3 heads while threading through air_tower.  Don't forget to put the printed bumper piece on one of the screws.
 6. Solder to Pro Micro or chunair_core pcb depending on what you have.  Make sure you slide the slider_rail into the slider first before soldering.
 7. Repeat steps 2-6 for the other side.
-8. Use 4 m3x8 bolts and nuts to mount db9 and chunair_core to core.  Press fit 12v barrel connector and hot glue into place.
+8. Add zip ties to core.  Use 4 m3x8 bolts and nuts to mount db9 and chunair_core to core.  Press fit 12v barrel connector and hot glue into place.
 9. Thread M4 screws through rubber foot and slider to mount to slider.
-10. Use existing M4 screws on the chunithm slider to mount core.
+10. Use existing M4 screws on the chunithm slider to mount core.  Zip tie down core & power cable
 11. Flash firmware and test to make sure everything works.  Then add adhesive rubber feet on each bumper in addition to the bottom of the airs.
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
