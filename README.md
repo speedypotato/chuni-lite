@@ -1,6 +1,8 @@
 # chuni-lite
 Slidy air towers for an arcade chuni slider without backplate.  Bare minimum docs because I don't expect too many people to have access to chuni cab sliders without backplates.
 
+![chuni lite](pics/15.jpg)
+
 Current versions can be found at:
 - CAD: chuni-lite\chunair-cad\airs\print\f1
 - PCB: chuni-lite\chunair\chunair\chunair_v2\v2-1-2 & chuni-lite\chunair\chunair_core\v1
@@ -37,16 +39,53 @@ Can hand wire, or replace air_tower_top_1 3D print with chunair pcb.  chunair_co
 
 Basic steps:
 0. Wire up your slider's 12v and DB9.  Crimps recommended.  11" 4 wire recommended for 12v, 9" 3 wire for DB9.
-1. Print parts.  Then print a mirrored set.
+
+![xa 1](pics/2.jpg)
+
+![xa 2](pics/3.jpg)
+
+![xa 3](pics/4.jpg)
+
+![db9 and 12v](pics/5.jpg)
+
+1. Print parts.  Then print a mirrored set.  Glue magnets with super glue except for the one on slider which is inserted from the outside - glue that one in with hot glue.  Pay attention to the magnetic poles!!
+
+![chunair 3d print](pics/1.jpg)
+
 2. Assemble slider_rail and air_tower with hinge, flat head screws, and nuts and insert into slider (double check orientation)
-3. Glue leds/pds if you are using air_tower_top_1.  Wire according to the diagram in "ac chuni/wiring.png".  If you have PCB, solder resistors and leds/pds.  With PCB, recommended wire length is around 30", 9 wires for RGB, 8 for no RGB.  
+
+![hinge](pics/6.jpg)
+
+3. Glue leds/pds if you are using air_tower_top_1.  Wire according to the diagram in "ac chuni/wiring.png".  If you have PCB, solder resistors and leds/pds - 10K resistors are marked, the other 3 are 150 ohm resistors.  With PCB, recommended wire length is around 30", 9 wires for RGB, 8 for no RGB.  
 3a. If you want RGB, add a 3 piece WS2812B LED strip in the middle and solder it up like the picture.
+
+![led](pics/7.jpg)
+
+![led pcb](pics/8.jpg)
+
 4. Shove unsoldered end of ribbon cable through the channel.
 5. Screw air_tower_top_2 to the pcb or air_tower_top_1(depending on which you have) using rounded m3 heads while threading through air_tower.  Don't forget to put the printed bumper piece on one of the screws.
+
+![bumper](pics/12.jpg)
+
 6. Solder to Pro Micro or chunair_core pcb depending on what you have.  Make sure you slide the slider_rail into the slider first before soldering.
+
+![chunair core](pics/9.jpg)
+
 7. Repeat steps 2-6 for the other side.
+
+![chunair loose](pics/10.jpg)
+
+![chunair assembled](pics/11.jpg)
+
 8. Add zip ties to core.  Use 4 m3x8 bolts and nuts to mount db9 and chunair_core to core.  Press fit 12v barrel connector and hot glue into place.
+
+![chunair core](pics/13.jpg)
+
 9. Thread M4 screws through rubber foot and slider to mount to slider.
+
+![chunair core](pics/14.jpg)
+
 10. Use existing M4 screws on the chunithm slider to mount core.  Zip tie down core & power cable
 11. Flash firmware and test to make sure everything works.  Then add adhesive rubber feet on each bumper in addition to the bottom of the airs.
 
