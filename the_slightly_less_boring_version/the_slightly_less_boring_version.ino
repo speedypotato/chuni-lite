@@ -12,12 +12,12 @@ struct {
   uint32_t val;     // Caliibrated Value
   char key;         // Output Keystroke
 } beams[NUM_IR] = {
-  6, A9, 0, '4',  // 1
-  16, A1, 0, '7', // 4
-  7, A10, 0, '5', // 2
-  14, A2, 0, '8', // 5
-  8, A0, 0, '6',  // 3
-  15, A3, 0, '9', // 6
+  6, A9, 0, '0',  // 1
+  16, A1, 0, 'P', // 4
+  7, A10, 0, 'O', // 2
+  14, A2, 0, ',', // 5
+  8, A0, 0, 'L',  // 3
+  15, A3, 0, '.', // 6
 };
 // Above LEDS are 1(lowest) to 6(highest) - they are out of order for optimal polling
 
