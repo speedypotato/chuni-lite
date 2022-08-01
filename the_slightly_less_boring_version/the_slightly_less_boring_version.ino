@@ -84,8 +84,8 @@ void setup() {
   pinMode(COIN, INPUT_PULLUP);
 
   // just steal the raw array values lol
-  FastLED.addLeds<WS2811, LEFT_PIN, RGB>(&ledData.data[50], NUM_LEDS).setCorrection( TypicalLEDStrip );
-  FastLED.addLeds<WS2811, RIGHT_PIN, RGB>(&ledData.data[60], NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<WS2812B, LEFT_PIN, RGB>(&ledData.data[50], NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<WS2812B, RIGHT_PIN, RGB>(&ledData.data[60], NUM_LEDS).setCorrection( TypicalLEDStrip );
   // initialize to white
   fill_solid(&ledData.data[50], NUM_LEDS, CRGB::White);
   fill_solid(&ledData.data[60], NUM_LEDS, CRGB::White);
